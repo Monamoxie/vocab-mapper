@@ -99,7 +99,7 @@ php artisan tenants:migrate
 
 ## MAKING YOUR ELOQUENT MODELS VOCABLE
 
-A vocab is a name, identity or a domain driven terminology used by default across your application. In an educational project, it could be the word `SUBJECTS` for storing all the subjects taught in a school. In an autotomive project, it could be the word `VEHICLES` for identifying all vehicles available in your system.
+A vocab is a name, identity or a domain driven terminology used by default across your application. In an educational project, it could be the word `SUBJECTS` for storing all the subjects taught in a school. In an automotive project, it could be the word `VEHICLES` for identifying all vehicles available in your system.
 
 To make any of your models `VOCABLE`, (which is the ability to maintain and be represented in a different term across multiple tenants or users), you should include the `HasVocab` trait to the model
 
