@@ -1,0 +1,10 @@
+.vscode
+vendor
+workbench
+.phpunit.cache
+tests/coverage
+coverage
+vendor
+composer.lock
+.DS_Store
+testbench.yaml
