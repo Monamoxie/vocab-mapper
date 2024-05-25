@@ -10,6 +10,6 @@ class InvalidConfigurationException extends Exception
     {
         $typeExpected = collect($typeExpected)->implode(',');
 
-        return parent::__construct("Invalid configuration provided for {$key}. `{$typeProvided}` provided, but `{$typeExpected}` expected");
+        parent::__construct("Invalid configuration provided for {$key}. `{$typeProvided}` provided, but `{$typeExpected}` expected");
     }
 }
