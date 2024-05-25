@@ -56,9 +56,9 @@ class VocabService implements VocabInterface
                 'entity_id' => $entity->id,
                 'custom_name' => $as
             ];
-
-            return $vocab->vocabMapper()->updateOrCreate($data, $data);
         }
+
+        return $vocab->vocabMapper()->updateOrCreate($data, $data);
     }
 
     public function getVocabFor(object $entity, string $handler): ?VocabMapper
