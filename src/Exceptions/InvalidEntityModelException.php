@@ -10,6 +10,6 @@ class InvalidEntityModelException extends Exception
     {
         $typeExpected = collect($typeExpected)->implode(',');
 
-        return parent::__construct("Invalid entity model provided. `{$typeProvided}` provided, but any of `{$typeExpected}` expected");
+        parent::__construct("Invalid entity model provided. `{$typeProvided}` provided, but any of `{$typeExpected}` expected");
     }
 }

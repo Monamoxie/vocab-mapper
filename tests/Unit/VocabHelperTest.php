@@ -16,7 +16,7 @@ final class VocabHelperTest extends TestCase
             use VocabHelper;
         };
 
-        $this->assertEquals(database_path('/database/migrations/'), $model->getMigrationDirectory());
+        $this->assertEquals(database_path('/migrations/'), $model->getMigrationDirectory());
     }
 
     public function testMigrationSubPathUsingCustomPath()
@@ -30,6 +30,6 @@ final class VocabHelperTest extends TestCase
             use VocabHelper;
         };
 
-        $this->assertEquals(database_path('/database/migrations/' . $subDir), $model->getMigrationDirectory());
+        $this->assertEquals(database_path('/migrations/' . $subDir), $model->getMigrationDirectory());
     }
 }
