@@ -1,8 +1,7 @@
 <p align="center"><img src="files/img/logo-w.png"></p>
 
 <p align="center">
-<img alt="Github Actions" src="https://img.shields.io/badge/Architecture-Multi_Tenancy-limegreen?style=plastic
-">
+<img alt="Github Actions" src="https://img.shields.io/badge/Architecture-Multi_Tenancy-limegreen?style=plastic">
 <a href="https://codecov.io/gh/Monamoxie/vocab-mapper" > 
  <img src="https://codecov.io/gh/Monamoxie/vocab-mapper/branch/master/graph/badge.svg"/> 
  </a>
