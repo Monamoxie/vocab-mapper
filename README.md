@@ -3,11 +3,11 @@
 <p align="center">
 <img alt="Github Actions" src="https://img.shields.io/badge/Architecture-Multi_Tenancy-limegreen?style=plastic
 ">
-<a href="https://github.com/Monamoxie/vocab-mapper/actions/workflows/build.yml" _target="blank"><img alt="Github Actions" src="https://github.com/Monamoxie/vocab-mapper/actions/workflows/build.yml/badge.svg"></a>
-<img alt="Laravel v10.x" src="https://img.shields.io/badge/Laravel-v10.x-060?style=plastic&logo=laravel">
 <a href="https://codecov.io/gh/Monamoxie/vocab-mapper" > 
  <img src="https://codecov.io/gh/Monamoxie/vocab-mapper/branch/master/graph/badge.svg"/> 
  </a>
+<a href="https://github.com/Monamoxie/vocab-mapper/actions/workflows/build.yml" _target="blank"><img alt="Github Actions" src="https://github.com/Monamoxie/vocab-mapper/actions/workflows/build.yml/badge.svg?branch=master&event=push"></a>
+<img alt="Laravel v10.x" src="https://img.shields.io/badge/Laravel-v10.x-060?style=plastic&logo=laravel">
 </p>
 
 # VOCAB MAPPER
