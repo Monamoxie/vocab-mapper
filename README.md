@@ -1,7 +1,10 @@
 <p align="center"><img src="files/img/logo-w.png"></p>
 
 <p align="center">
-<a href="https://laravel.com"><img alt="Laravel v10.x" src="https://img.shields.io/badge/Laravel-v10.x-060?style=for-the-badge&logo=laravel"></a>
+<img alt="Github Actions" src="https://img.shields.io/badge/Architecture-Multi_Tenancy-limegreen?style=plastic
+">
+<a href="https://github.com/Monamoxie/vocab-mapper/actions/workflows/package.yml" _target="blank"><img alt="Github Actions" src="https://github.com/Monamoxie/vocab-mapper/actions/workflows/package.yml/badge.svg"></a>
+<img alt="Laravel v10.x" src="https://img.shields.io/badge/Laravel-v10.x-060?style=plastic&logo=laravel">
 
 </p>
 
