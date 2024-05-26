@@ -6,7 +6,7 @@
  <img src="https://codecov.io/gh/Monamoxie/vocab-mapper/branch/master/graph/badge.svg"/> 
  </a>
 <a href="https://github.com/Monamoxie/vocab-mapper/actions/workflows/build.yml" _target="blank"><img alt="Github Actions" src="https://github.com/Monamoxie/vocab-mapper/actions/workflows/build.yml/badge.svg?branch=master&event=push"></a>
-<img alt="Laravel v10.x" src="https://img.shields.io/badge/Laravel-v10.x-limegreen?style=plastic&logo=laravel">
+<a href="https://packagist.org/packages/monamoxie/vocab-mapper"><img src="https://poser.pugx.org/monamoxie/vocab-mapper/v/stable" alt="Latest Stable Version"></a>
 </p>
 
 # VOCAB MAPPER
