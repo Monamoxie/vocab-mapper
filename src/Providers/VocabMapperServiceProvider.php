@@ -49,7 +49,10 @@ class VocabMapperServiceProvider extends ServiceProvider
     {
 
         $this->mergeConfigFrom(dirname(__DIR__, 2) . '/config/vocab.php', 'vocab');
-        $this->loadMigrationsFrom(dirname(__DIR__, 2) . '/database/migrations');
+
+        if ($this->shouldLoadPackageMigration()) {
+            $this->loadMigrationsFrom(dirname(__DIR__, 2) . '/database/migrations');
+        }
 
         $loader = AliasLoader::getInstance();
         $loader->alias('VocabCollector', VocabCollector::class);

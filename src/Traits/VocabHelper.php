@@ -15,4 +15,13 @@ trait VocabHelper
 
         return sprintf('%s/%s', $main, $subDir);
     }
+
+    public function shouldLoadPackageMigration(): bool
+    {
+        $migrationDir = $this->getMigrationDirectory();
+
+        return !is_dir($migrationDir) ||
+            !count(glob($migrationDir . '/*_create_vocabs_table.php')) ||
+            !count(glob($migrationDir . '/*_create_vocab_mappers_table.php'));
+    }
 }
